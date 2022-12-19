@@ -39,7 +39,7 @@ export function AppBarItems() {
           <Avatar
             size={36}
             name={data?.user.name}
-            src={data?.user.name ? undefined : "/"}
+            src={data?.user.name ? undefined : "/avatar.jpeg"}
             alt=""
           />
         </Link>

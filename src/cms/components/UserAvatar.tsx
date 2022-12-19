@@ -13,5 +13,5 @@ export function UserAvatar({ size }: UserAvatarProps) {
   }, []);
 
   const user = decodeUserInfo(data);
-  return <Avatar size={size} alt={user.name} src={user.avatar} />;
+  return <Avatar size={size} alt={user.name} src={user.photo} />;
 }

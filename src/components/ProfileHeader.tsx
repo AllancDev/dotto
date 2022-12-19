@@ -19,6 +19,7 @@ export function ProfileHeader({
   role,
   username,
 }: ProfileHeaderProps) {
+  console.log(photo);
   return (
     <div className="profile-header">
       <div className="row">
